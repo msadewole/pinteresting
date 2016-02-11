@@ -7,9 +7,11 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-<%= link_to "Home", root_path %>
-<%= link_to "About me", about_path %>
-<%= yield %>
 
+<%= render 'layouts/header' %>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<div class="container">
+    <%= yield %>
+</div>
 </body>
 </html>
