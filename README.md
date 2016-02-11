@@ -1,2 +1,2 @@
-This is the pinteresting sample application for
+This is a sample application named pinteresting for
 ME
