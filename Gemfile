@@ -1,7 +1,10 @@
 source 'https://rubygems.org'
 
+ruby '2.2.1'
+
 gem 'rails', '4.2.5.1'
 
+gem 'devise', '~> 3.4.0'
 
 gem 'sass-rails', '~> 5.0'
 
